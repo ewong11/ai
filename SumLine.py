@@ -13,7 +13,7 @@ for i in sc:
         noWS = e.strip()
         if noWS.isdigit():
             noNum = False
-            sum += int(e)
+            sum += int(noWS)
     if not noNum and sum > 0:
         j.write(str(sum))
         j.write('\n')
